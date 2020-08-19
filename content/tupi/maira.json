@@ -2,7 +2,7 @@
   "word": "maira",
   "alternate": ["maíra"],
   "definitions": [
-    { "class": "substantive", "text": "Francês" },
-    { "class": "substantive", "text": "Entidade mística da cultura tupi"}
+    { "class": "subst", "text": "Francês" },
+    { "class": "subst", "text": "Entidade mística da cultura tupi"}
   ]
 }

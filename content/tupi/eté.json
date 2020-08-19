@@ -1,0 +1,26 @@
+{
+  "word": "eté",
+  "definitions": [
+    {
+      "class": "adv-intens",
+      "text": "Muito – em intensidade, não em quantidade.",
+      "examples": [
+        ["Abá nhe'enga o-îkoé-eté", "A língua dos índios é muito diferente"]
+      ]
+    },
+    {
+      "class": "subst",
+      "text": "Corpo.",
+      "examples": [
+        ["Ogû eté", "Seu próprio corpo"]
+      ]
+    },
+    {
+      "class": "adv-intens",
+      "text": "Verdadeiro.",
+      "examples": [
+        ["Tab-eté", "Aldeia verdadeira"]
+      ]
+    }
+  ]
+}
