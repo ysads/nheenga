@@ -1,0 +1,67 @@
+$font-dm-sans: 'DM Sans', 'Helvetica', 'Arial', sans-serif;
+
+%dm-sans {
+  font-family: $font-dm-sans;
+}
+
+%regular {
+  font-weight: 400;
+}
+
+%medium {
+  font-weight: 500;
+}
+
+%bold {
+  font-weight: 700;
+}
+
+%italic {
+  font-style: italic;
+}
+
+%h1 {
+  @extend %dm-sans;
+  @extend %bold;
+
+  font-size: 2.5rem;
+  line-height: 1.25;
+
+  @include breakpoint(md) {
+    font-size: 3.125rem;
+  }
+}
+
+%h2 {
+  @extend %dm-sans;
+  @extend %bold;
+
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+%h3 {
+  @extend %dm-sans;
+  @extend %medium;
+
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+
+%body-text1 {
+  @extend %dm-sans;
+  @extend %regular;
+
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+%subtitle1 {
+  @extend %dm-sans;
+  @extend %bold;
+
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+}

@@ -1,19 +1,10 @@
+const path = require('path')
 
 export default {
-  /*
-  ** Nuxt rendering mode
-  ** See https://nuxtjs.org/api/configuration-mode
-  */
-  mode: 'universal',
-  /*
-  ** Nuxt target
-  ** See https://nuxtjs.org/api/configuration-target
-  */
-  target: 'server',
-  /*
-  ** Headers of the page
-  ** See https://nuxtjs.org/api/configuration-head
-  */
+  mode: 'spa',
+
+  target: 'static',
+
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -22,59 +13,45 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap' }
     ]
   },
 
-  /*
-   * Nuxt content plugin configurations
-   */
   content: {
     fullTextSearchFields: ['word', 'alternate', 'definitions.text'],
     nestedProperties: ['definitions.class', 'definitions.text']
   },
 
-  /*
-  ** Global CSS
-  */
   css: [
   ],
-  /*
-  ** Plugins to load before mounting the App
-  ** https://nuxtjs.org/guide/plugins
-  */
+
+  styleResources: {
+    scss: [
+      './assets/tokens/*.scss',
+    ],
+  },
+
   plugins: [
   ],
-  /*
-  ** Auto import components
-  ** See https://nuxtjs.org/api/configuration-components
-  */
+
   components: true,
-  /*
-  ** Nuxt.js dev-modules
-  */
+
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/stylelint-module
-    '@nuxtjs/stylelint-module'
+    // '@nuxtjs/stylelint-module',
+    '@nuxtjs/style-resources'
   ],
-  /*
-  ** Nuxt.js modules
-  */
+
   modules: [
-    // Doc: https://github.com/nuxt/content
     '@nuxt/content'
   ],
-  /*
-  ** Content module configuration
-  ** See https://content.nuxtjs.org/configuration
-  */
+
   content: {},
-  /*
-  ** Build configuration
-  ** See https://nuxtjs.org/api/configuration-build/
-  */
+
   build: {
+    extend (config, context) {
+      config.resolve.alias['@'] = path.resolve(__dirname)
+    }
   }
 }
