@@ -1,0 +1,16 @@
+{
+  "word": "pytu",
+  "definitions": [
+    {
+      "class": "subst",
+      "text": "Hálito"
+    },
+    {
+      "class": "verb-intrans-posp",
+      "text": "Respirar – usa 2ª classe (xe, nde, ...)",
+      "examples": [
+        ["Xe pytu", "Eu respiro"]
+      ]
+    }
+  ]
+}

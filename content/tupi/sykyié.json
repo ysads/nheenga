@@ -1,7 +1,7 @@
 {
   "word": "sykyié",
-  "alternate": ["sykyîé", "kkk", "askd"],
+  "alternate": ["sykyîé"],
   "definitions": [
-    { "class": "verb", "text": "Temer, ter medo" }
+    { "class": "verb-intrans-posp", "text": "Temer, ter medo de. Usa posposição suí." }
   ]
 }

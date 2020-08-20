@@ -2,7 +2,7 @@
   "word": "eté",
   "definitions": [
     {
-      "class": "adv-intens",
+      "class": "adv",
       "text": "Muito – em intensidade, não em quantidade.",
       "examples": [
         ["Abá nhe'enga o-îkoé-eté", "A língua dos índios é muito diferente"]
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "class": "adv-intens",
+      "class": "adv",
       "text": "Verdadeiro.",
       "examples": [
         ["Tab-eté", "Aldeia verdadeira"]
