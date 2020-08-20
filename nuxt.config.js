@@ -1,7 +1,7 @@
 const path = require('path')
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
 
   target: 'static',
 
