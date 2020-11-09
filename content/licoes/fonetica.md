@@ -57,3 +57,15 @@ Porém:
 A vogal nasal **não** cai:
 - tetama + -pe > teta(ma)-me > tetã-me: na terra
 - nhe'enga + katu > nhe'e(nga)-ngatu > nhe'ē-ngatu: língua boa
+
+## Regra do I + I/Y
+
+Nessas situações, insere-se um `î` de ligação. Exs:
+- i + ygara > i-î ygara: a canoa dele
+- i + itá > i-î itá: a pedra dele
+
+## Regra do I/Î + S
+
+Se forem suscedidos por `s`, fazem ele virar um `x`:
+- syryk (escorregadio) > i xyryk (ele é escorregadio)
+- sema (saída) > i xema (saída dele)

@@ -88,6 +88,7 @@ export default {
     @include margin(top, 4);
 
     display: grid;
+    grid-auto-flow: dense;
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-gap: $base * 4;
