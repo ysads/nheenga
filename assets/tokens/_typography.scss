@@ -1,9 +1,3 @@
-$font-dm-sans: 'DM Sans', 'Helvetica', 'Arial', sans-serif;
-
-%dm-sans {
-  font-family: $font-dm-sans;
-}
-
 %regular {
   font-weight: 400;
 }
@@ -21,7 +15,6 @@ $font-dm-sans: 'DM Sans', 'Helvetica', 'Arial', sans-serif;
 }
 
 %h1 {
-  @extend %dm-sans;
   @extend %bold;
 
   font-size: 2.5rem;
@@ -33,7 +26,6 @@ $font-dm-sans: 'DM Sans', 'Helvetica', 'Arial', sans-serif;
 }
 
 %h2 {
-  @extend %dm-sans;
   @extend %bold;
 
   font-size: 2rem;
@@ -41,7 +33,6 @@ $font-dm-sans: 'DM Sans', 'Helvetica', 'Arial', sans-serif;
 }
 
 %h3 {
-  @extend %dm-sans;
   @extend %medium;
 
   font-size: 1.5rem;
@@ -50,7 +41,6 @@ $font-dm-sans: 'DM Sans', 'Helvetica', 'Arial', sans-serif;
 
 
 %body-text1 {
-  @extend %dm-sans;
   @extend %regular;
 
   font-size: 1rem;
@@ -58,7 +48,6 @@ $font-dm-sans: 'DM Sans', 'Helvetica', 'Arial', sans-serif;
 }
 
 %subtitle1 {
-  @extend %dm-sans;
   @extend %bold;
 
   font-size: 1.15rem;
