@@ -1,6 +1,6 @@
 {
   "word": "tera",
   "definitions": [
-    { "class": "subst", "text": "Nome" }
+    { "class": "subst.plur.", "text": "Nome", "obs": "(t,r,s)" }
   ]
 }
