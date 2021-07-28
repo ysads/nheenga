@@ -1,6 +1,7 @@
 {
   "word": "koty",
   "definitions": [
-    { "class": "subst", "text": "Aposento, quarto" }
+    { "class": "subst", "text": "Aposento, quarto" },
+    { "class": "posp", "text": "Em direção a, para, na direção de" }
   ]
 }

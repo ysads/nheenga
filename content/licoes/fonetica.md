@@ -41,7 +41,6 @@ Se estiverem antes de outra vogal, pode aparecer `û` semivogal representada `-g
 - kuab > kuûab > kugûab: saber
 
 ## K, T, P e S
-
 K, T, P, S se nasalizam se vier após fonema nasal e se não houver uma nasal no vocábulo em questão:
 
 ```
@@ -74,3 +73,36 @@ Nessas situações, insere-se um `î` de ligação. Exs:
 Se forem suscedidos por `s`, fazem ele virar um `x`:
 - syryk (escorregadio) > i xyryk (ele é escorregadio)
 - sema (saída) > i xema (saída dele)
+
+## R após nasal
+
+`r-` se nasalisa após vogal nasal _acentuada_. Ex:
+- nhū (campo) > nhū-nama (futuro campo)
+- kunumī (menino) > kunumī-nama (o que será menino)
+
+## Regra do -rama/-pûera
+
+Subst. oxítono, mantém `r-` e `p-`. Ex:
+- xe só-rama: minha futura ida
+- xe só-pûera: minha ida passada
+
+Subst. paroxítono perde sufixo `-a` e fazem `r-` e `p-` caírem. Ex:
+- anhanga + pûera > anhang-ûera (diabo velho)
+- oka + rama > ok-ûama (futura casa)
+
+`b` cai na presença dos sufixos. Ex:
+- peasaba + pûera > peasa-bûera > peasa-gûera: futuro porto
+
+`m` cai antes de `-ûama` e vira `mb` antes de `-ûera`. Ex:
+- sema + rama > sem-ûama > sē-gûama: futura saída
+- sema + pûera > sem-ûera > semb-ûera: antiga saída
+
+Após `r` e `n`, usam-se `-ama` e `-era`. O `n` vira `nd`. Ex:
+- mena + rama > men-ama: futuro marido
+- mena + pûera > men-ûera > mend-ûera: o que foi marido
+- pira + rama > pir-ama: o que será pele
+
+## Regra da oclusão glotal
+A oclusiva `'` cai após consoante numa composição ou sufixação. Ex:
+- pitang(a) + 'ī > pitangī
+- tapi'ir(a) + 'y > tapi'iry

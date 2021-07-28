@@ -1,6 +1,6 @@
 {
   "word": "tekokatu",
   "definitions": [
-    { "class": "subst", "text": "virtude" }
+    { "class": "subst.plur", "text": "virtude", "obs": "(T,R,S)" }
   ]
 }
