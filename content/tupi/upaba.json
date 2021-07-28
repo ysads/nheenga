@@ -1,6 +1,6 @@
 {
   "word": "upaba",
   "definitions": [
-    { "class": "subst", "text": "Lagoa, lagoa" }
+    { "class": "subst.plur", "text": "Lagoa, lagoa", "obs": "(T,T)" }
   ]
 }

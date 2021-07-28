@@ -106,3 +106,15 @@ Após `r` e `n`, usam-se `-ama` e `-era`. O `n` vira `nd`. Ex:
 A oclusiva `'` cai após consoante numa composição ou sufixação. Ex:
 - pitang(a) + 'ī > pitangī
 - tapi'ir(a) + 'y > tapi'iry
+
+## Sufixos -abo/-aba
+O primeiro `a` cai se for precedido por `e` ou `o`. Ex:
+- sykyîé + abo > sykyîébo (temendo)
+- mondó + abo > mondóbo (mandando)
+
+`b` se nasalisa após vogal acentuada nasal. Ex:
+- nupã + abo > nupãmo (açoitando)
+- manõ + abo > manõmo (morrendo)
+- kytī + abo > kytīamo (cortando)
+
+
