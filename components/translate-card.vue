@@ -84,9 +84,8 @@ export default {
     &-class {
       @include margin(right, 2);
 
-      @extend %medium;
-      @extend %italic;
-
+      font-family: 'IBM Plex Mono';
+      font-style: italic;
       display: inline-block;
     }
   }

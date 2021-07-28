@@ -29,9 +29,13 @@ export default {
 <style lang="scss" scoped>
 .menu {
   display: flex;
-  flex-flow: column;
+  flex-flow: row wrap;
   padding: 48px 20px;
-}
+
+  @include breakpoint(md) {
+    flex-flow: column;
+  }
+ }
 
 .link {
   padding: 12px 24px;
@@ -51,6 +55,11 @@ export default {
 }
 
 .link + .link {
+  margin-left: 4px;
   margin-top: 4px;
+
+  @include breakpoint(md) {
+    margin-left: 0;
+  }
 }
 </style>

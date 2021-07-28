@@ -19,6 +19,7 @@ export default {
   font-family: 'IBM Plex Mono';
   padding: 20px;
   font-size: 14px;
+  line-height: 1.5;
   outline: none;
   border-radius: 8px;
   box-shadow: 0 0 0 4px #faa6888a;
@@ -66,6 +67,7 @@ ul {
 
       color: $black;
       content: "■ ";
+      font-size: 10px;
     }
   }
 }

@@ -67,13 +67,20 @@ export default {
   &__input {
     @extend %h3;
 
-    border-radius: $radius-8;
-    border: 0px;
-    background: $gray;
+    border-radius: 8px;
+    border: 1px solid #000;
+    transition: all 0.3s ease;
+
+    background: white;
     color: $dark-gray;
     margin-top: $base * 4;
     padding: $base * 4;
     width: 100%;
+
+    &:focus {
+      box-shadow: 0 0 0 4px #faa6888a;
+      border: 1px solid #f25619;
+    }
 
     &::placeholder {
       color: rgba($dark-gray, 0.5);
