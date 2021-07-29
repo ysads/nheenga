@@ -27,6 +27,11 @@ Vira `-ype` após `-a` átono. Cai o `-a`:
 – taba + -pe > tá-pe: na aldeia
 - pyrá-sykaba + -pe > pyrá-syká-pe: no lugar de chegada dos peixes
 
+## S após I
+Após `i`, todo `s` vira `x`. Ex:
+- i + sóû > i xóu
+- i + syryk > i xyryk
+
 ## Oxítonas
 
 Não sofrem alteração pois a última sílaba nunca é átona
@@ -116,5 +121,3 @@ O primeiro `a` cai se for precedido por `e` ou `o`. Ex:
 - nupã + abo > nupãmo (açoitando)
 - manõ + abo > manõmo (morrendo)
 - kytī + abo > kytīamo (cortando)
-
-

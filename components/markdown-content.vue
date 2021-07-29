@@ -54,6 +54,12 @@ p {
   }
 }
 
+mark {
+  padding: 0 4px;
+  background: #ffd3bc;
+  border-radius: 2px;
+}
+
 ul {
   @include margin(bottom, 6);
 
@@ -61,6 +67,10 @@ ul {
 
   li {
     @include margin(bottom, 2);
+
+    code {
+      color: #f25619;
+    }
 
     &::before {
       @include margin(right, 2);

@@ -2,6 +2,6 @@
   "word": "iepotar",
   "alternate": ["îepotar"],
   "definitions": [
-    { "class": "verb", "text": "Chegar por mar ou por rio" }
+    { "class": "verb.intrans", "text": "Chegar por mar ou por rio" }
   ]
 }
