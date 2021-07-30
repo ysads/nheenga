@@ -2,6 +2,6 @@
   "word": "iebyr",
   "alternate": ["îebyr"],
   "definitions": [
-    { "class": "verb-intrans", "text": "Voltar, tornar." }
+    { "class": "verb.intrans", "text": "Voltar, tornar." }
   ]
 }
